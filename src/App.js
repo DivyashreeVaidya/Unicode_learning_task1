@@ -46,7 +46,7 @@ function App() {
         <form onSubmit={handleSubmit(onSubmit)}>
         <div className="main_header">
         <h1 className="main_header1"> Escape the mundane.</h1>
-        <h2 className="main_header2">A one-stop destination for all your favourite movies, music, audiobooks, guided meditation, podcasts and more</h2></div>
+        <h2 className="main_header2">A one-stop destination for all your favourite movies, music, audiobooks, guided meditations, podcasts and more</h2></div>
         <div className="container">
         <div className="App">
         <h2 className="header">Create your account today</h2><br/>
@@ -101,7 +101,7 @@ function App() {
         </div></div></div><br/>
         <div className="row mx-md-n5">
         <div className="col px-md-5"><div className="p-3">
-        <input type="submit" value="Join Now" className="submit"/>
+        <input type="submit" value="Sign Up" className="submit"/>
            </div></div></div>
          <br/>
         </div> </div></div>
