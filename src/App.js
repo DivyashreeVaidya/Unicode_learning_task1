@@ -19,7 +19,7 @@ function App() {
   const onSubmit = (data) => {
     console.log(data)
     console.log(errors.message)
-    if(errors.message==undefined)
+    if(errors.message===undefined)
     {
       setShowData(true);
     }

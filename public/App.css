@@ -55,10 +55,13 @@ body{
   grid-gap: 4px;
   background-color: rgba(250,250,240,0.55);
 }
-@media only screen and (max-width: 722px){
-  .App{
-  width: 80%;
-  height: 50%;
+@media only screen and (max-width: 770px){
+  .container,.App,.main_header2{  
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 }
