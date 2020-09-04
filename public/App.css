@@ -2,6 +2,13 @@
 @import url("https://fonts.googleapis.com/css?family=Amiri");
 @import url("https://fonts.googleapis.com/css?family=Cardo");
 @import url("https://fonts.googleapis.com/css?family=Cinzel");
+@import url("https://fonts.googleapis.com/css?family=Tinos");
+@import url("https://fonts.googleapis.com/css?family=Cookie");
+@import url("https://fonts.googleapis.com/css?family=Alice");
+@import url("https://fonts.googleapis.com/css?family=Sacramento");
+@import url("https://fonts.googleapis.com/css?family=Marck%20Script");
+
+
 
 body{
   background-image: url(bgescape.jpg);
@@ -56,12 +63,16 @@ body{
   background-color: rgba(250,250,240,0.55);
 }
 @media only screen and (max-width: 770px){
-  .container,.App,.main_header2{  
+  .container,.App{  
     width: auto;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .main_header{
+    float:left;
+    text-align: left;
   }
 
 }
@@ -91,16 +102,15 @@ label{
   text-shadow: black 6px;
 }
 .label1{
-  font-family: Cinzel;
+  font-family: Alice;
   color:#030116;
   font-size: 55px;
   font-weight: 35px;
   text-shadow: black 6px;
-  text-decoration: underline;
 }
 .value{
   color:#030116;
-  font-family: Amiri;
+  font-family: Marck Script;
   font-size: 60px;
   font-weight: 35px;
   text-shadow: black 6px;
